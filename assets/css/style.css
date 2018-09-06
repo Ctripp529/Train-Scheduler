@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/jtronbkgrnd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.display-4 {
+    color: black;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.label {
+    font-family: 'Orbitron', sans-serif;
+
+}
+.card-header{
+    text-align: center;
+    background-color: rgb(0, 0, 40);
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+}
+.my-4 {
+    color: black;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.table-head{
+    background-color: antiquewhite;
+}
+
+#background{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 0%;
+}
+.card{
+    padding: 16px;
+
+}
+#currentTime{
+    color: whitesmoke;
+}
+#table {
+    color: whitesmoke;
+    background-color: navy;
+    font-family: 'Orbitron', sans-serif;;
+}
+.btn {
+    background-color: navy;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+}
+.btn-lg:hover{
+    background-color: rgb(45, 39, 79);
+    color: whitesmoke;
+}
+
+
