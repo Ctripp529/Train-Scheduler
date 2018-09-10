@@ -113,6 +113,6 @@ $('#shareBtn').on("click", function() {
 FB.ui({
 method: 'share',
 display: 'popup',
-href: 'https://developers.facebook.com/docs/',
+href: 'https://ctripp529.github.io/Train-Scheduler/',
 }, function(response){});
 })
