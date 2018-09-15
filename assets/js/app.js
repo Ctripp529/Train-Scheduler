@@ -91,28 +91,28 @@ $(document).ready(function () {
 
 });
 
-//Facebook share
-window.fbAsyncInit = function() {
-FB.init({
-appId : '565239973894983',
-autoLogAppEvents : true,
-xfbml : true,
-version : 'v3.1'
-});
-};
+// //Facebook share
+// window.fbAsyncInit = function() {
+// FB.init({
+// appId : '565239973894983',
+// autoLogAppEvents : true,
+// xfbml : true,
+// version : 'v3.1'
+// });
+// };
 
-(function(d, s, id){
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) {return;}
-js = d.createElement(s); js.id = id;
-js.src = "https://connect.facebook.net/en_US/sdk.js";
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-//Facebook share
-$('#shareBtn').on("click", function() {
-FB.ui({
-method: 'share',
-display: 'popup',
-href: 'https://ctripp529.github.io/Train-Scheduler/',
-}, function(response){});
-})
+// (function(d, s, id){
+// var js, fjs = d.getElementsByTagName(s)[0];
+// if (d.getElementById(id)) {return;}
+// js = d.createElement(s); js.id = id;
+// js.src = "https://connect.facebook.net/en_US/sdk.js";
+// fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
+// //Facebook share
+// $('#shareBtn').on("click", function() {
+// FB.ui({
+// method: 'share',
+// display: 'popup',
+// href: 'https://ctripp529.github.io/Train-Scheduler/',
+// }, function(response){});
+// })
