@@ -1,2 +1,2 @@
 # Train-Scheduler
-firebase assignment
+https://ctripp529.github.io/Train-Scheduler/
